@@ -19,6 +19,9 @@ from django.urls import path
 from pages import views
 
 urlpatterns = [
-    path('', views.home_view, name='home'),
+    path('', views.news_view, name='news'),
+    path('events/', views.events_view, name='events'),
+    path('jobs/', views.jobs_view, name='jobs'),
+    path('about/', views.about_view, name='about'),
     path('admin/', admin.site.urls),
 ]
