@@ -5,6 +5,6 @@ from django.db import models
 class NewsPost(models.Model):
     title   = models.TextField(max_length=100)
     url     = models.URLField(max_length=300)
-    author  = models.TextField()
-    time    = models.DateTimeField()
-    votes   = models.IntegerField()
+    author  = models.TextField(default="No author")
+    time    = models.DateTimeField(auto_now_add=True, blank=True)
+    votes   = models.IntegerField(default=0)
