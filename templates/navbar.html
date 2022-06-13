@@ -1,8 +1,29 @@
-<nav>
-    <ul>
-        <a href="{% url "news" %}">news</a>
-        <a href="{% url "events" %}">events</a>
-        <a href="{% url "jobs" %}">jobs</a>
-        <a href="{% url "about" %}">about</a>
-    </ul>
-</nav>
+<table width="85%" bgcolor="#f6f6ef">
+    <tbody>
+        <tr>
+            <td bgcolor="#81c5fc"> 
+                <table style="padding:2px" width="100%" > 
+                    <tbody>
+                        <tr>
+                            <td style="width:18px;padding-right:4px" >hackernews.ee</td>
+                            <td style="line-height:12pt; height:10px;">
+                                <span>
+                                    <a href="{% url "news" %}">news</a>
+                                    <a href="{% url "events" %}">events</a>
+                                    <a href="{% url "jobs" %}">jobs</a>
+                                    <a href="{% url "about" %}">about</a>
+                                </span>
+                            </td>
+                            <td style="text-align:right;padding-right:4px;">
+                                <span>
+                                    <a href="{% url "news" %}">login</a>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
