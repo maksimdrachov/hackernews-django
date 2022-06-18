@@ -44,16 +44,16 @@ class NewsPost(models.Model):
 - **votes** `IntegerField`
   - number of upvotes, starts at 0
 
-### EventPost
+### JobPost
 
-> Each "Event" post needs an entry in the database
+> Each "Job" post needs an entry in the database
 
-`python manage.py startapp EventPost`
+`python manage.py startapp JobPost`
 
 `models.py`:
 
 ```python
-class EventPost(models.Model):
+class JobPost(models.Model):
     title = models.CharField(max_length=100, blank=False)
     description = models.TextField(blank=False)
     author = models.CharField(max_length=20, blank=False)
@@ -76,20 +76,18 @@ INSTALLED_APPS = [
     # third party
 
     # own
-    'EventPost',
+    'JobPost',
 ]
 ```
 
 `admin.py`:
 
 ```python
-from .models import EventPost
+from .models import JobPost
 
-admin.site.register(EventPost)
+admin.site.register(JobPost)
 ```
 
 `python manage.py makemigrations`
 
 `python manage.py migrate`
-
-### JobPost
