@@ -48,6 +48,48 @@ class NewsPost(models.Model):
 
 > Each "Event" post needs an entry in the database
 
+`python manage.py startapp EventPost`
 
+`models.py`:
+
+```python
+class EventPost(models.Model):
+    title = models.CharField(max_length=100, blank=False)
+    description = models.TextField(blank=False)
+    author = models.CharField(max_length=20, blank=False)
+    time = models.DateTimeField(auto_now_add=True, blank=False)
+```
+
+`settings.py`:
+
+```py
+# Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+
+    # third party
+
+    # own
+    'EventPost',
+]
+```
+
+`admin.py`:
+
+```python
+from .models import EventPost
+
+admin.site.register(EventPost)
+```
+
+`python manage.py makemigrations`
+
+`python manage.py migrate`
 
 ### JobPost
