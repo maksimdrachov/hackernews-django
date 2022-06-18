@@ -122,9 +122,17 @@ def news_view(request, *args, **kwargs):
 {% endblock %}
 ```
 
+## Add submit button
+
+### NewsPost
+
+Add link
+
 ## TODO
 
-- [ ] show all news articles on home page
+- [x] show all news articles on home page
 - [ ] add submit button to news
-- [ ] show all job postings on home page
+- [ ] add detail view to links in news
+- [x] show all job postings on home page
 - [ ] add submit button to jobs
+- [ ] add detail view to links in jobs

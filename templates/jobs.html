@@ -2,4 +2,11 @@
 
 {% block content %}
 <h1> jobs </h1>
+
+<ul>
+    {% for each in object %}
+        <li>{{ each.title }}</li>
+    {% endfor %}
+</ul>
+
 {% endblock %}
