@@ -238,5 +238,12 @@ urlpatterns = [
 - [x] add submit button to news
 - [ ] add detail view to links in news
 - [x] show all job postings on home page
-- [ ] add submit button to jobs
+- [x] add submit button to jobs
 - [ ] add detail view to links in jobs
+
+- [ ] add events calendar
+- [ ] add account system
+- [ ] add upvote system
+
+- [ ] improve styling
+- [ ] add header image
