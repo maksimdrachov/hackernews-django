@@ -91,3 +91,40 @@ admin.site.register(JobPost)
 `python manage.py makemigrations`
 
 `python manage.py migrate`
+
+## Displaying articles on pages
+
+1. Update `news_view`:
+
+```python
+from NewsPost.models import NewsPost
+
+def news_view(request, *args, **kwargs):
+    obj = NewsPost.objects.all()
+    context = {
+        'object' : obj
+    }
+    return render(request, "news.html", context)
+```
+
+2. Update `news.html`:
+
+```python
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> news </h1>
+
+{% for each in objects %}
+    <p>{{ each.title }}</p>
+{% endfor %}
+
+{% endblock %}
+```
+
+## TODO
+
+- [ ] show all news articles on home page
+- [ ] add submit button to news
+- [ ] show all job postings on home page
+- [ ] add submit button to jobs
