@@ -46,4 +46,8 @@ class NewsPost(models.Model):
 
 ### EventPost
 
+> Each "Event" post needs an entry in the database
+
+
+
 ### JobPost
