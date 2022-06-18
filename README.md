@@ -126,7 +126,26 @@ def news_view(request, *args, **kwargs):
 
 ### NewsPost
 
-Add link
+Add link to `news.html`:
+
+```python
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> news </h1>
+
+<a href="{% url "newscreate" %}">submit</a>
+
+<ul>
+{% for each in object %}
+    <li>{{ each.title }}</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
+```
+
+### 
 
 ## TODO
 

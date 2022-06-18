@@ -7,5 +7,6 @@ class NewsPostForm(forms.ModelForm):
         model = NewsPost
         fields = [
             'title',
-            'url'
+            'url',
+            'author',
         ]

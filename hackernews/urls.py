@@ -22,7 +22,7 @@ from NewsPost.views import news_post_detail_view, news_post_create_view
 urlpatterns = [
     path('', views.news_view, name='news'),
     path('newspost/', news_post_detail_view),
-    path('newscreate/', news_post_create_view),
+    path('newscreate/', news_post_create_view, name='newscreate'),
     path('events/', views.events_view, name='events'),
     path('jobs/', views.jobs_view, name='jobs'),
     path('about/', views.about_view, name='about'),
