@@ -4,8 +4,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 def news_view(request, *args, **kwargs):
-    print(request.user)
-    print(request.user.is_authenticated)
     return render(request, "news.html", {})
 
 def events_view(request, *args, **kwargs):
