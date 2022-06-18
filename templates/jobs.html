@@ -3,6 +3,8 @@
 {% block content %}
 <h1> jobs </h1>
 
+<a href="{% url "jobcreate" %}">submit</a>
+
 <ul>
     {% for each in object %}
         <li>{{ each.title }}</li>
