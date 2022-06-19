@@ -9,13 +9,13 @@ html {
 
 img {
     width: 600px;
-    margin: 0% 0% 0% 25%;
+    margin: 0% 0% 0% 20%;
     margin-top: 5px;
   }
 
 nav {
   width: 600px;
-  margin: 0% 0% 0% 25%;
+  margin: 0% 0% 0% 20%;
   padding: 5px 0px 15px 0px;
 }
 
@@ -41,8 +41,8 @@ nav {
 /* NEWS */
 
 article {
-  width: 750px;
-  margin: 0% 0% 0% 25%;
+  width: 600px;
+  margin: 0% 0% 0% 20%;
 }
 
 .upvote {
@@ -75,7 +75,12 @@ article {
 
 .jobs {
   width: 750px;
-  margin: 0% 0% 0% 25%;
+  margin: 0% 0% 0% 20%;
 }
 
 /* ABOUT */
+
+.about {
+  margin-top: 0px;
+  display: inline-block;
+}
