@@ -1,14 +1,21 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1> jobs </h1>
-
-<a href="{% url "jobcreate" %}">submit</a>
+<!-- <a href="{% url "jobcreate" %}">submit</a>
 
 <ul>
     {% for each in object %}
         <li>{{ each.title }}</li>
     {% endfor %}
-</ul>
+</ul> -->
+
+{% for each in object %}
+
+<article class="jobs">
+    <a href="articles/article-1.html" class="title">{{ each.title }}</a>
+    <p class="subscript">by {{ each.author }} 4 hours ago</p>
+</article>
+
+{% endfor %}
 
 {% endblock %}

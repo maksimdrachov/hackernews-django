@@ -73,4 +73,9 @@ article {
 
 /* JOBS */
 
+.jobs {
+  width: 750px;
+  margin: 0% 0% 0% 25%;
+}
+
 /* ABOUT */
