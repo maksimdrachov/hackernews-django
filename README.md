@@ -1,5 +1,55 @@
 # hackernews-django
 
+## TODO
+
+news
+
+- [x] show all news articles on home page
+- [x] add submit button to news
+- [ ] add detail view to links in news
+
+jobs
+
+- [x] show all job postings on home page
+- [x] add submit button to jobs
+- [ ] add detail view to links in jobs
+
+events
+
+- [ ] add events model
+- [ ] add events calendar
+
+accounts
+
+- [ ] add account system
+  - [x] login
+  - [x] logout
+  - [ ] register
+- [ ] profile page content
+  - [ ] posted articles (news, events, jobs)
+  - [ ] upvoted articles
+
+upvotes
+
+- [ ] add upvote system
+  - [ ] [algorithm](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d)
+
+comments
+
+- [ ] comments model
+- [ ] comments templating
+
+styling
+
+- [ ] re-add submit button (inside the profile page)
+- [x] add header image
+- [x] add basic css styling
+- [ ] add favicon
+- [ ] allignment improvements
+  - [ ] `^` should be more to the left
+  - [ ] width doesn't work when wide
+  - [ ] filter links to only display domain
+
 ## Common Commands
 
 Activate virtual environment: `source bin/activate`
@@ -232,22 +282,3 @@ urlpatterns = [
 
 
 
-## TODO
-
-- [x] show all news articles on home page
-- [x] add submit button to news
-- [ ] add detail view to links in news
-- [x] show all job postings on home page
-- [x] add submit button to jobs
-- [ ] add detail view to links in jobs
-
-- [ ] add events calendar
-- [ ] add account system
-  - [x] login
-  - [x] logout
-  - [ ] register
-- [ ] add upvote system
-
-- [ ] improve styling
-  - [ ] re-add submit button (inside the profile page)
-- [ ] add header image
