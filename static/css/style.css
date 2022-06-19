@@ -1,7 +1,10 @@
+/* BASE */
+
 html {
     font-size: 18px; /* px means "pixels": the base font size is now 10 pixels high  */
     font-family: "Courier New"; /* this should be the rest of the output you got from Google fonts */
     background-color: #2b2a33;
+    color: #FFFFFF;
   }
 
 img {
@@ -33,4 +36,41 @@ nav {
     text-decoration: none;
     float: right;
     padding-left: 5px;
-  }
+}
+
+/* NEWS */
+
+article {
+  width: 750px;
+  margin: 0% 0% 0% 25%;
+}
+
+.upvote {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.link {
+    color: #646464;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.subscript {
+    color: #646464;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+/* JOBS */
+
+/* ABOUT */

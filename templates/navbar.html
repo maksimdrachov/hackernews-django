@@ -43,7 +43,7 @@
     <a href="{% url 'logout' %}" class="logout">[logout]</a>
     <a href="{{ profile_url }}" class="login">{{ user.username }}</a>
     {% else %}
-    <a href="{% url 'login' %}" class="login">[login]</a>
+    <a href="{% url 'login' %}" class="login">[login/register]</a>
     {% endif %}
 </nav>
 
