@@ -1,9 +1,13 @@
+from pipes import Template
 from django.shortcuts import render
 
 from django.http import HttpResponse
 
 from NewsPost.models import NewsPost
 from JobPost.models import JobPost
+
+from django.views.generic.base import TemplateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 def news_view(request, *args, **kwargs):
@@ -25,3 +29,6 @@ def jobs_view(request, *args, **kwargs):
 
 def about_view(request, *args, **kwargs):
     return render(request, "about.html", {})
+
+class ProfileView(TemplateView, LoginRequiredMixin):
+    template_name = 'accounts/profile.html'
