@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="header-image.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2072866"
+     inkscape:cx="287.00724"
+     inkscape:cy="283.69403"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1312"
+     inkscape:window-height="855"
+     inkscape:window-x="61"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       id="rect3713"
+       width="180.23796"
+       height="16.223013"
+       x="26.4342"
+       y="82.090736"
+       style="fill:#000000;fill-opacity:0;stroke-width:0.158094"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/Users/maksimdrachov/hackernews.ee/images/header-image.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4369px;line-height:1.25;font-family:'3270Medium Nerd Font Mono';-inkscape-font-specification:'3270Medium Nerd Font Mono';letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.274651"
+       x="26.471409"
+       y="94.763725"
+       id="text3717"
+       transform="scale(0.96884803,1.0321536)"><tspan
+         sodipodi:role="line"
+         id="tspan3715"
+         x="26.471409"
+         y="94.763725"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4369px;font-family:Courier;-inkscape-font-specification:Courier;fill:#00ff00;fill-opacity:1;stroke-width:0.274651">hackernews.ee</tspan></text>
+  </g>
+</svg>

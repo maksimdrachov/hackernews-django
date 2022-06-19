@@ -4,11 +4,14 @@
         <title>
             hackernews.ee
         </title>
+        {% load static %}
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
     </head>
 
-    <center><em><p>Home page for e-estonians</p></em></center>
-
     <body>
+        {% load static %}
+        <img src="{% static 'assets/header-image.png' %}" alt="header image">
+
         {% include 'navbar.html' %}
         {% block content %}
         replace me

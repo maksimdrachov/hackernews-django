@@ -1,4 +1,4 @@
-<table width="100%" bgcolor="#ffffff">
+<!-- <table width="100%" bgcolor="#ffffff">
     <tbody>
         <tr>
             <td bgcolor="#ffffff"> 
@@ -30,5 +30,20 @@
             </td>
         </tr>
     </tbody>
+</table> -->
 
-</table>
+<nav>
+    <a href="{% url "news" %}" class="navbutton">news</a>
+    <a href="{% url "events" %}" class="navbutton">events</a>
+    <a href="{% url "jobs" %}" class="navbutton">jobs</a>
+    <a href="{% url "about" %}" class="navbutton">about</a>
+
+    {% if request.user.is_authenticated %}
+    {% url 'profile' as profile_url %}
+    <a href="{% url 'logout' %}" class="logout">[logout]</a>
+    <a href="{{ profile_url }}" class="login">{{ user.username }}</a>
+    {% else %}
+    <a href="{% url 'login' %}" class="login">[login]</a>
+    {% endif %}
+</nav>
+

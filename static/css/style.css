@@ -1,0 +1,36 @@
+html {
+    font-size: 18px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Courier New"; /* this should be the rest of the output you got from Google fonts */
+    background-color: #2b2a33;
+  }
+
+img {
+    width: 600px;
+    margin: 0% 0% 0% 25%;
+    margin-top: 5px;
+  }
+
+nav {
+  width: 600px;
+  margin: 0% 0% 0% 25%;
+  padding: 5px 0px 15px 0px;
+}
+
+.navbutton {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+.login {
+  color: #FFFFFF;
+  text-decoration: none;
+  float: right;
+  padding-left: 5px;
+}
+
+.logout {
+    color: #646464;
+    text-decoration: none;
+    float: right;
+    padding-left: 5px;
+  }
