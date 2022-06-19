@@ -243,7 +243,11 @@ urlpatterns = [
 
 - [ ] add events calendar
 - [ ] add account system
+  - [x] login
+  - [x] logout
+  - [ ] register
 - [ ] add upvote system
 
 - [ ] improve styling
+  - [ ] re-add submit button (inside the profile page)
 - [ ] add header image
