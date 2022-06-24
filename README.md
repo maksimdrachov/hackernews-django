@@ -4,7 +4,9 @@
 
 - [x] register account
 - [ ] submit news, automatically sets right account name
+  - [ ] need to figure out how this works
 - [ ] news detail view (get there through clicking on comments)
+  - [ ] need to figure out how to work with id of post
 - [ ] comments (attached to news articles detail view)
   - [ ] all in one row
   - [ ] sorting can be done chrono or top

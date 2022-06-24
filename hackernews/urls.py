@@ -18,17 +18,18 @@ from django.urls import path
 
 from pages import views
 from NewsPost.views import news_post_detail_view, news_post_create_view
-from JobPost.views import job_post_create_view
+from JobPost.views import job_post_detail_view, job_post_create_view
 
 from django.contrib.auth import views as auth_views
 from pages.views import signup_view
 
 urlpatterns = [
     path('', views.news_view, name='news'),
-    path('newspost/', news_post_detail_view, name='newsview'),
+    path('newsdetail/', news_post_detail_view, name='newsdetail'),
     path('newscreate/', news_post_create_view, name='newscreate'),
     path('events/', views.events_view, name='events'),
     path('jobs/', views.jobs_view, name='jobs'),
+    path('jobdetail/', job_post_detail_view, name='jobdetail'),
     path('jobcreate', job_post_create_view, name='jobcreate'),
     path('about/', views.about_view, name='about'),
     path('admin/', admin.site.urls),

@@ -5,7 +5,7 @@
 {% for each in object %}
 
 <article class="jobs">
-    <a href="articles/article-1.html" class="title">{{ each.title }}</a>
+    <a href="{% url 'jobdetail' %}" class="title">{{ each.title }}</a>
     <p class="subscript">by {{ each.author }} 4 hours ago</p>
 </article>
 
