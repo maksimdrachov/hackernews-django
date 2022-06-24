@@ -98,3 +98,11 @@ article {
   margin-top: 0px;
   display: inline-block;
 }
+
+/* FORM */
+
+.formclass {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0em auto;
+}
