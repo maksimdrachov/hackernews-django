@@ -2,6 +2,15 @@
 
 ## TODO
 
+- [ ] register account
+- [ ] submit news, automatically sets right account name
+- [ ] news detail view (get there through clicking on comments)
+- [ ] comments (attached to news articles detail view)
+  - [ ] all in one row
+  - [ ] sorting can be done chrono or top
+  - [ ] comments can be collapsed using `[-]` link/button
+- [ ] jobs detail view (markdown field support?)
+
 news
 
 - [x] show all news articles on home page
@@ -18,6 +27,7 @@ events
 
 - [ ] add events model
 - [ ] add events calendar
+- [ ] [django-scheduler](https://github.com/llazzaro/django-scheduler)
 
 accounts
 
@@ -43,15 +53,16 @@ styling
 
 - [x] re-add submit button (inside the profile page)
 - [x] clicked links should be greyed out
-- [ ] selected submenu should be indicated using `[]`
-- [ ] if upvoted, `^` should be green
 - [x] add favicon
 - [x] add time since posted ([timesince](https://docs.djangoproject.com/en/4.0/ref/templates/builtins/#timesince))
 - [x] add header image
 - [x] add basic css styling
-- [ ] allignment improvements
+- [x] allignment improvements
   - [x] width doesn't work when wide
-  - [ ] filter links to only display domain
+- [ ] filter links to only display domain
+- [ ] selected submenu should be indicated using `[]`
+- [ ] if upvoted, `^` should be green
+
 
 ## Common Commands
 
