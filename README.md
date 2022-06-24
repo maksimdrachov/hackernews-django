@@ -35,6 +35,7 @@ accounts
   - [x] login
   - [x] logout
   - [ ] register
+  - [ ] add email confirmation
 - [ ] profile page content
   - [ ] posted articles (news, events, jobs)
   - [ ] upvoted articles

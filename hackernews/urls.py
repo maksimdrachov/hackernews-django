@@ -21,6 +21,7 @@ from NewsPost.views import news_post_detail_view, news_post_create_view
 from JobPost.views import job_post_create_view
 
 from django.contrib.auth import views as auth_views
+from pages.views import signup_view
 
 urlpatterns = [
     path('', views.news_view, name='news'),
@@ -36,4 +37,7 @@ urlpatterns = [
     path('accounts/login', auth_views.LoginView.as_view(template_name="accounts/login.html"), name='login'),
     path('accounts/logout', auth_views.LogoutView.as_view(), name='logout'),
     path('accounts/profile', views.ProfileView.as_view(), name="profile"),
+
+    path('signup/', signup_view, name='signup'),
+
 ]
