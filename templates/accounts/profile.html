@@ -2,10 +2,22 @@
 
 {% block content %}
 
-<h1> {{ user.username }}'s profile </h1> 
+<article>
+    <p class="about"> <strong>{{ user.username }}'s profile</strong> </p>
+</article>
 
-<a href="{% url "newscreate" %}">submit news</a>
+<article>
+    <a href="{% url "newscreate" %}" class="title">submit: news</a>
+</article>
 
-<a href="{% url "jobcreate" %}">submit jobs</a>
+<article>
+    <a href="{% url "jobcreate" %}" class="title">submit: event</a>
+</article>
+
+<article>
+    <a href="{% url "jobcreate" %}" class="title">submit: job</a>
+</article>
+
+
 
 {% endblock %}

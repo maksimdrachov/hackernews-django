@@ -42,7 +42,7 @@ comments
 styling
 
 - [x] re-add submit button (inside the profile page)
-- [ ] clicked links should be greyed out
+- [x] clicked links should be greyed out
 - [ ] selected submenu should be indicated using `[]`
 - [ ] if upvoted, `^` should be green
 - [ ] add favicon
@@ -50,7 +50,7 @@ styling
 - [x] add basic css styling
 - [ ] allignment improvements
   - [ ] `^` should be more to the left
-  - [ ] width doesn't work when wide
+  - [x] width doesn't work when wide
   - [ ] filter links to only display domain
 
 ## Common Commands
