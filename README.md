@@ -41,10 +41,13 @@ comments
 
 styling
 
-- [ ] re-add submit button (inside the profile page)
+- [x] re-add submit button (inside the profile page)
+- [ ] clicked links should be greyed out
+- [ ] selected submenu should be indicated using `[]`
+- [ ] if upvoted, `^` should be green
+- [ ] add favicon
 - [x] add header image
 - [x] add basic css styling
-- [ ] add favicon
 - [ ] allignment improvements
   - [ ] `^` should be more to the left
   - [ ] width doesn't work when wide
