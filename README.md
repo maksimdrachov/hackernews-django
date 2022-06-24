@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] register account
+- [x] register account
 - [ ] submit news, automatically sets right account name
 - [ ] news detail view (get there through clicking on comments)
 - [ ] comments (attached to news articles detail view)
