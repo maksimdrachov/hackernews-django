@@ -5,7 +5,7 @@ from .forms import NewsPostForm
 
 # Create your views here.
 def news_post_detail_view(request):
-    obj = NewsPost.objects.get(id=1)
+    obj = NewsPost.objects.get(id=5)
     context = {
         'object' : obj
     }

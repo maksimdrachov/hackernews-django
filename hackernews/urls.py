@@ -25,7 +25,7 @@ from pages.views import signup_view
 
 urlpatterns = [
     path('', views.news_view, name='news'),
-    path('newspost/', news_post_detail_view),
+    path('newspost/', news_post_detail_view, name='newsview'),
     path('newscreate/', news_post_create_view, name='newscreate'),
     path('events/', views.events_view, name='events'),
     path('jobs/', views.jobs_view, name='jobs'),
