@@ -46,10 +46,10 @@ styling
 - [ ] selected submenu should be indicated using `[]`
 - [ ] if upvoted, `^` should be green
 - [ ] add favicon
+- [x] add time since posted ([timesince](https://docs.djangoproject.com/en/4.0/ref/templates/builtins/#timesince))
 - [x] add header image
 - [x] add basic css styling
 - [ ] allignment improvements
-  - [ ] `^` should be more to the left
   - [x] width doesn't work when wide
   - [ ] filter links to only display domain
 
