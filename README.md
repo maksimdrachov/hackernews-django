@@ -11,7 +11,8 @@
   - [ ] all in one row
   - [ ] sorting can be done chrono or top
   - [ ] comments can be collapsed using `[-]` link/button
-- [ ] jobs detail view (markdown field support?)
+- [x] jobs detail view
+  - [ ] (markdown field support?)
 
 news
 
