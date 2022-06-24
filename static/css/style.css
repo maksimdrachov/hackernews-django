@@ -52,10 +52,22 @@ article {
     margin-top: 0px;
 }
 
+.upvote:hover {
+  color: #00FF00;
+}
+
 .title {
     color: #FFFFFF;
     font-size: 18px;
     text-decoration: none;
+}
+
+.title:visited {
+  color: #FFFFFF;
+}
+
+.title:hover {
+  color: #00FF00;
 }
 
 .link {

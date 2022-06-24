@@ -5,7 +5,7 @@
 {% for each in object %}
 
 <article>
-  <a href={{"articles/article-1.html"}} class="upvote">^ </a> <a href="articles/article-1.html" class="title">{{ each.title }}</a> <a href="articles/article-1.html" class="link">({{each.url}})</a>
+  <a href={{"articles/article-1.html"}} class="upvote">^ </a> <a href={{each.url}} class="title">{{ each.title }}</a> <a href={{each.url}} class="link">({{each.url}})</a>
   <p class="subscript">{{ each.votes }} points by {{ each.author }} 4 hours ago | 59 comments</p>
 </article>
 
