@@ -5,8 +5,8 @@ from .forms import JobPostForm
 
 # Create your views here.
 
-def job_post_detail_view(request):
-    obj = JobPost.objects.get(id=3)
+def job_post_detail_view(request, my_id):
+    obj = JobPost.objects.get(id=my_id)
     context = {
         'object' : obj
     }

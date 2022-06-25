@@ -29,7 +29,7 @@ urlpatterns = [
     path('newscreate/', news_post_create_view, name='newscreate'),
     path('events/', views.events_view, name='events'),
     path('jobs/', views.jobs_view, name='jobs'),
-    path('jobdetail/', job_post_detail_view, name='jobdetail'),
+    path('jobdetail/<int:my_id>/', job_post_detail_view, name='jobdetail'),
     path('jobcreate', job_post_create_view, name='jobcreate'),
     path('about/', views.about_view, name='about'),
     path('admin/', admin.site.urls),
