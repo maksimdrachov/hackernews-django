@@ -3,17 +3,15 @@
 {% block content %}
 
 <article>
-    <a href="{{ object.url }}" class="title"><strong>{{ object.title }}</strong></a>
+    <a href="{{ object.url }}" class="title">{{ object.title }}</a>
     <p class="subscript">{{ object.votes }} points by {{ object.author }} | {{ object.time|timesince }} ago | 59 comments</p>
 </article>
 
 {% for each in comment %}
 
 <article>
-    <a href={{"articles/article-1.html"}} class="upvote">^ </a>
-    <p>{{ each.text }}</p>
-    <p>{{ each.author }}</p>
-    <p>{{ each.time|timesince }} ago</p>
+    <p class="comments"><a href={{"articles/article-1.html"}} class="comments-upvote">^ </a> {{ each.author }} {{ each.time|timesince }} ago <a href={{"articles/article-1.html"}} class="upvote">[-]</a></p>
+    <p class="comments">{{ each.text }}</p>
 </article>
 
 {% endfor %}
