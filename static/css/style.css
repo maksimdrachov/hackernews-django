@@ -109,6 +109,14 @@ article {
 
 /* COMMENTS */
 
+.comment-block {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0em auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .comments {
   font-size: 16px;
   margin-top: 0px;
@@ -117,7 +125,15 @@ article {
 
 .comments-upvote {
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.comments-title {
+  color: #646464;
+  font-size: 16px;
   text-decoration: none;
   margin-top: 0px;
   margin-bottom: 0px;
