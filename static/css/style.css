@@ -142,3 +142,8 @@ article {
 .comments-upvote:hover {
 color: #00FF00;
 }
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}

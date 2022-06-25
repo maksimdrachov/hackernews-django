@@ -7,17 +7,29 @@
 </article>
 
 <article>
-    <a href="{% url "newscreate" %}" class="title">submit: news</a>
+    <span class="tab"></span><a href="{% url "newscreate" %}" class="title">submit: news</a>
 </article>
 
 <article>
-    <a href="{% url "jobcreate" %}" class="title">submit: event</a>
+    <span class="tab"></span><a href="{% url "jobcreate" %}" class="title">submit: event</a>
 </article>
 
 <article>
-    <a href="{% url "jobcreate" %}" class="title">submit: job</a>
+    <span class="tab"></span><a href="{% url "jobcreate" %}" class="title">submit: job</a>
 </article>
 
+<br>
 
+<article>
+    <span class="tab"></span><a href="{% url "newscreate" %}" class="title">list: my news</a>
+</article>
+
+<article>
+    <span class="tab"></span><a href="{% url "jobcreate" %}" class="title">list:  my events</a>
+</article>
+
+<article>
+    <span class="tab"></span><a href="{% url "jobcreate" %}" class="title">list: my jobs</a>
+</article>
 
 {% endblock %}

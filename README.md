@@ -11,6 +11,8 @@
 - [ ] filter out top domain name on news homepage
 - [ ] implement upvote system
 - [ ] inside personal profile:
+  - [ ] news posts (list all posts)
+  - [ ] 
   - [ ] news posts (edit button)
   - [ ] comment posts (edit button)
 
