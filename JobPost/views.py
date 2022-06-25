@@ -15,7 +15,9 @@ def job_post_detail_view(request, my_id):
 def job_post_create_view(request):
     form = JobPostForm(request.POST or None)
     if form.is_valid():
-        form.save()
+        jobpost = form.save(commit=False)
+        jobpost.author = request.user
+        jobpost.save()
         form = JobPostForm()
 
     context = {

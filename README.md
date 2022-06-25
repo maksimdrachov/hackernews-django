@@ -3,8 +3,8 @@
 ## TODO
 
 - [x] register account
-- [ ] submit news, automatically sets right account name
-  - [ ] need to figure out how this works
+- [x] submit news, automatically sets right account name
+  - [x] need to figure out how this works
 - [x] news detail view (get there through clicking on comments)
   - [x] need to figure out how to work with id of post
 - [ ] comments (attached to news articles detail view)

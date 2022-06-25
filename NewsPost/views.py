@@ -14,9 +14,9 @@ def news_post_detail_view(request, my_id):
 def news_post_create_view(request):
     form = NewsPostForm(request.POST or None)
     if form.is_valid():
-        news = form.save(commit=False)
-        news.author = request.user
-        news.save()
+        newspost = form.save(commit=False)
+        newspost.author = request.user
+        newspost.save()
         form = NewsPostForm()
 
     context = {
