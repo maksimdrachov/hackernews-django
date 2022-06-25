@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'pages',
     'NewsPost',
     'JobPost',
+    "Comment",
 ]
 
 MIDDLEWARE = [

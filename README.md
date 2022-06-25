@@ -52,6 +52,7 @@ comments
 
 - [ ] comments model
 - [ ] comments templating
+- [ ] [link](https://docs.djangoproject.com/en/2.1/ref/contrib/postgres/fields/#querying-arrayfield)
 
 styling
 
