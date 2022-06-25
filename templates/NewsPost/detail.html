@@ -3,11 +3,8 @@
 {% block content %}
 
 <article>
-    <p class="about"><strong>{{ object.title }}</strong></p>
-    <br>
-    <p>URL: {{ object.url }}</p>
-    <p>Timestamp: {{ object.time }}</p>
-    <p>Total upvotes: {{ object.votes }}</p>
+    <a href="{{ object.url }}" class="title"><strong>{{ object.title }}</strong></a>
+    <p class="subscript">{{ object.votes }} points by {{ object.author }} | {{ object.time|timesince }} ago | 59 comments</p>
 </article>
 
 {% endblock %}
