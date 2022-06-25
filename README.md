@@ -3,9 +3,10 @@
 ## TODO
 
 - [ ] jobs markdown field support
+  - [link](https://www.youtube.com/watch?v=t61nTi0lIlk)
 - [ ] display correct number of comments on news homepage
-- [ ] add reply button 
 - [ ] add comment form
+- [ ] add reply button 
 - [ ] improve forms (currently they look ugly)
 - [ ] allow for enter and whitelines in textfield for comment
 - [ ] filter out top domain name on news homepage
