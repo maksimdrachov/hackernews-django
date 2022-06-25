@@ -8,5 +8,4 @@ class NewsPostForm(forms.ModelForm):
         fields = [
             'title',
             'url',
-            'author',
         ]
