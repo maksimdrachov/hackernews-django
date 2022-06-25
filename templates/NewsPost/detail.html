@@ -1,8 +1,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>{{ object.title }}</h1>
-<p>URL: {{ object.url }}</p>
-<p>Timestamp: {{ object.time }}</p>
-<p>Total upvotes: {{ object.votes }}</p>
+
+<article>
+    <p class="about"><strong>{{ object.title }}</strong></p>
+    <br>
+    <p>URL: {{ object.url }}</p>
+    <p>Timestamp: {{ object.time }}</p>
+    <p>Total upvotes: {{ object.votes }}</p>
+</article>
+
 {% endblock %}
