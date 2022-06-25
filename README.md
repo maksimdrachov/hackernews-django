@@ -2,29 +2,39 @@
 
 ## TODO
 
+- [ ] jobs markdown field support
+- [ ] display correct number of comments on news homepage
+- [ ] add reply button 
+- [ ] add comment form
+- [ ] improve forms (currently they look ugly)
+- [ ] allow for enter and whitelines in textfield for comment
+- [ ] filter out top domain name on news homepage
+- [ ] implement upvote system
+- [ ] inside personal profile:
+  - [ ] news posts (edit button)
+  - [ ] comment posts (edit button)
+
 - [x] register account
 - [x] submit news, automatically sets right account name
   - [x] need to figure out how this works
 - [x] news detail view (get there through clicking on comments)
   - [x] need to figure out how to work with id of post
-- [ ] comments (attached to news articles detail view)
-  - [ ] all in one row
-  - [ ] sorting can be done chrono or top
-  - [ ] comments can be collapsed using `[-]` link/button
+- [x] comments (attached to news articles detail view)
+  - [x] all in one row
+  - [x] comments can be collapsed using `[-]` link/button
 - [x] jobs detail view
-  - [ ] (markdown field support?)
 
 news
 
 - [x] show all news articles on home page
 - [x] add submit button to news
-- [ ] add detail view to links in news
+- [x] add detail view to links in news
 
 jobs
 
 - [x] show all job postings on home page
 - [x] add submit button to jobs
-- [ ] add detail view to links in jobs
+- [x] add detail view to links in jobs
 
 events
 
@@ -65,7 +75,6 @@ styling
 - [x] allignment improvements
   - [x] width doesn't work when wide
 - [ ] filter links to only display domain
-- [ ] selected submenu should be indicated using `[]`
 - [ ] if upvoted, `^` should be green
 
 
@@ -335,5 +344,5 @@ taltech
 - public profile page for each account
   - links to twitter/github/linkedin (optional)
 - telegram feed group (hackernews.ee updates)
-
+- replies in comments are tabbed 
 
