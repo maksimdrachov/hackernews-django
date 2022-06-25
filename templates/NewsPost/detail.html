@@ -7,4 +7,15 @@
     <p class="subscript">{{ object.votes }} points by {{ object.author }} | {{ object.time|timesince }} ago | 59 comments</p>
 </article>
 
+{% for each in comment %}
+
+<article>
+    <a href={{"articles/article-1.html"}} class="upvote">^ </a>
+    <p>{{ each.text }}</p>
+    <p>{{ each.author }}</p>
+    <p>{{ each.time|timesince }} ago</p>
+</article>
+
+{% endfor %}
+
 {% endblock %}
