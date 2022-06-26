@@ -5,6 +5,7 @@ from django.http import HttpResponse
 
 from NewsPost.models import NewsPost
 from JobPost.models import JobPost
+from Comment.models import Comment
 
 from django.views.generic.base import TemplateView
 from django.contrib.auth.mixins import LoginRequiredMixin
