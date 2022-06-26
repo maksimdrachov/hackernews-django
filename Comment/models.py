@@ -5,4 +5,5 @@ class Comment(models.Model):
     text = models.TextField(blank=False)
     author = models.CharField(max_length=20, blank=False)
     time = models.DateTimeField(auto_now_add=True, blank=False)
+    votes = models.IntegerField(blank=False)
     parent_id = models.IntegerField(blank=False)

@@ -16,7 +16,7 @@ from django.shortcuts import redirect
 
 # Create your views here.
 def news_view(request, *args, **kwargs):
-    obj = NewsPost.objects.all()
+    obj = NewsPost.objects.all().order_by('-votes')
     context = {
         'object' : obj
     }
