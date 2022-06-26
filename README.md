@@ -77,7 +77,7 @@ styling
 - [x] add basic css styling
 - [x] allignment improvements
   - [x] width doesn't work when wide
-- [ ] filter links to only display domain
+- [x] filter links to only display domain
 - [ ] if upvoted, `^` should be green
 
 

@@ -118,9 +118,11 @@ article {
 }
 
 .comments {
+  font-family: "Courier New";
   font-size: 16px;
   margin-top: 0px;
   margin-bottom: 2px;
+  white-space: pre-wrap;
 }
 
 .comments-upvote {
