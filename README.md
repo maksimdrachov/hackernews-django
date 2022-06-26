@@ -4,19 +4,18 @@
 
 - [ ] jobs markdown field support
   - [link](https://www.youtube.com/watch?v=t61nTi0lIlk)
-- [ ] display correct number of comments on news homepage
+- [x] display correct number of comments on news homepage
 - [ ] add comment form
 - [ ] add reply button 
 - [ ] improve forms (currently they look ugly)
-- [ ] allow for enter and whitelines in textfield for comment
-- [ ] filter out top domain name on news homepage
+- [x] allow for enter and whitelines in textfield for comment
+- [x] filter out top domain name on news homepage
 - [ ] implement upvote system
 - [ ] inside personal profile:
-  - [ ] news posts (list all posts)
-  - [ ] 
-  - [ ] news posts (edit button)
-  - [ ] comment posts (edit button)
-
+  - [ ] list: my news posts
+  - [ ] list: my events
+  - [ ] list: my jobs
+  - [ ] list: upvoted
 - [x] register account
 - [x] submit news, automatically sets right account name
   - [x] need to figure out how this works
