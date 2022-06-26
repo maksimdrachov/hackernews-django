@@ -11,11 +11,13 @@
 
 <article class="comment-block">
     <p class="comments-title"><a href={{"articles/article-1.html"}} class="comments-upvote">^ </a> {{ each.votes }} | {{ each.author }} | {{ each.time|timesince }} ago <a onclick="myFunction({{ each.id }})" class="comments-upvote">[-]</a></p>
-    <pre class="comments">{{ each.text }}</pre>
-
-        
+    <pre class="comments" id="{{ each.id }}">{{ each.text }}</pre>
 </article>
 
 {% endfor %}
+
+<article>
+    <a class="title" href="{% url 'commentcreate' object.id %}" style="text-decoration: underline"> reply </a>
+</article>
 
 {% endblock %}
