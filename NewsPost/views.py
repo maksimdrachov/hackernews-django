@@ -8,7 +8,7 @@ from Comment.models import Comment
 # Create your views here.
 def news_post_detail_view(request, my_id):
     obj = NewsPost.objects.get(id=my_id)
-    comment = Comment.objects.all().filter(parent_id=my_id)
+    comment = Comment.objects.all().filter(parent_id=my_id).order_by('-votes')
     context = {
         'object' : obj,
         'comment': comment,
