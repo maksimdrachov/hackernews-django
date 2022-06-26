@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from urllib.parse import urlparse
 
 from .models import NewsPost
 from .forms import NewsPostForm
@@ -19,6 +20,7 @@ def news_post_create_view(request):
     form = NewsPostForm(request.POST or None)
     if form.is_valid():
         newspost = form.save(commit=False)
+        newspost.domain = urlparse(form.cleaned_data['url'])[1]
         newspost.author = request.user
         newspost.save()
         form = NewsPostForm()
