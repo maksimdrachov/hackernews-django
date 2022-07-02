@@ -3,6 +3,9 @@
 ## TODO
 
 - [ ] jobs markdown field support
+  - [ ] update model to support markdownfield
+  - [ ] update form
+  - [ ] update view
   - [link](https://www.youtube.com/watch?v=t61nTi0lIlk)
 - [ ] improve forms (currently they look ugly)
 - [ ] implement upvote system
@@ -11,6 +14,9 @@
   - [ ] list: my events
   - [ ] list: my jobs
   - [ ] list: upvoted
+- reply should only work when logged in
+- upvote button should do a post to increase count
+- add link to other profiles to display posts,...
 
 events
 
@@ -32,7 +38,7 @@ accounts
 upvotes
 
 - [ ] add upvote system
-- [ ] [algorithm](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d)
+- [ ] points [algorithm](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d)
 
 comments
 
