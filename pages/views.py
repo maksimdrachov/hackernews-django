@@ -18,8 +18,14 @@ from django.shortcuts import redirect
 # Create your views here.
 def news_view(request, *args, **kwargs):
     obj = NewsPost.objects.all().order_by('-votes')
+    ## count number of comments for each item
+    #for item in obj:
+    for item in obj:
+        item_id = item.id
+        numComment = Comment.objects.all().filter(parent_id=item_id).count()
+        item.comments = numComment
     context = {
-        'object' : obj
+        'object' : obj,
     }
     return render(request, "news.html", context)
 
