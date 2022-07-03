@@ -24,6 +24,8 @@ from Comment.views import comment_create_view
 from django.contrib.auth import views as auth_views
 from pages.views import signup_view
 
+from django.urls import path, include
+
 urlpatterns = [
     path('', views.news_view, name='news'),
     path('newsdetail/<int:my_id>/', news_post_detail_view, name='newsdetail'),
@@ -43,5 +45,6 @@ urlpatterns = [
     path('commentcreate/<int:my_id>/', comment_create_view, name='commentcreate'),
 
     path('signup/', signup_view, name='signup'),
+    path('', include("calendarapp.urls")),
 
 ]
