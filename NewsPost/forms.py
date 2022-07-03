@@ -9,3 +9,11 @@ class NewsPostForm(forms.ModelForm):
             'title',
             'url',
         ]
+        widgets = {
+            "title": forms.TextInput(
+                attrs={"placeholder": "Enter news title"}
+            ),
+            "url": forms.URLInput(
+                attrs={"placeholder": "Enter news link"}
+            )
+        }
