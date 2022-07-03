@@ -1,40 +1,8 @@
-<!-- <table width="100%" bgcolor="#ffffff">
-    <tbody>
-        <tr>
-            <td bgcolor="#ffffff"> 
-                <table style="padding:2px" width="100%" > 
-                    <tbody>
-                        <tr>
-                            <td style="line-height:12pt; height:10px;">
-                                <span>
-                                    <a href="{% url "news" %}">news</a> |
-                                    <a href="{% url "events" %}">events</a> |
-                                    <a href="{% url "jobs" %}">jobs</a> |
-                                    <a href="{% url "about" %}">about</a>
-                                </span>
-                            </td>
-                            <td style="text-align:right;padding-right:4px;">
-                                <span>
-                                    {% if request.user.is_authenticated %}
-                                    {% url 'profile' as profile_url %}
-                                    <a href="{{ profile_url }}">{{ user.username }}</a>
-                                    <span> <a href="{% url 'logout' %}">logout</a> </span>
-                                    {% else %}
-                                    <a href="{% url 'login' %}">login</a>
-                                    {% endif %}
-                                </span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-    </tbody>
-</table> -->
+
 
 <nav>
     <a href="{% url "news" %}" class="navbutton">news</a>
-    <a href="{% url "events" %}" class="navbutton">events</a>
+    <a href="{% url "calendarapp:events" %}" class="navbutton">events</a>
     <a href="{% url "jobs" %}" class="navbutton">jobs</a>
     <a href="{% url "about" %}" class="navbutton">about</a>
 
