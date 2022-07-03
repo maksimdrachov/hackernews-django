@@ -12,6 +12,7 @@
   - [ ] data model update 
   - [ ] template update
 - [ ] improve forms templating
+  - [ ] form label should be same style as nav bar
 - [ ] inside personal profile:
   - [ ] list: my news posts
   - [ ] list: my events
@@ -21,6 +22,9 @@
 - reply should only work when logged in (LoginRequiredMixin)
 - upvote button should do a post to increase count
 - add link to other profiles to display posts,...
+- news should display 10 items and have a page number changer at the bottom
+- news: top, latest(->default, since at the beginning there wont be so many articles), hot
+- check if everything works when not logged in (for example events page doesn't)
 
 events
 
@@ -32,7 +36,7 @@ accounts
 - [ ] add account system
   - [x] login
   - [x] logout
-  - [ ] register
+  - [x] register
   - [ ] add email confirmation
 - [ ] profile page content
   - [ ] posted articles (news, events, jobs)

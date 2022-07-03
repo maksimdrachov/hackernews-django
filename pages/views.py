@@ -33,7 +33,7 @@ def events_view(request, *args, **kwargs):
     return render(request, "events.html", {})
 
 def jobs_view(request, *args, **kwargs):
-    obj = JobPost.objects.all()
+    obj = JobPost.objects.all().order_by('-time')
     context = {
         'object' : obj
     }

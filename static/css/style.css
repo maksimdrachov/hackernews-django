@@ -107,6 +107,10 @@ article {
   margin: 0em auto;
 }
 
+label {
+  text-decoration: none;
+}
+
 /* COMMENTS */
 
 .comment-block {
