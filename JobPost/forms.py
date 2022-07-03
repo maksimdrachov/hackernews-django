@@ -8,4 +8,5 @@ class JobPostForm(forms.ModelForm):
         fields = [
             'title',
             'description',
+            'url',
         ]

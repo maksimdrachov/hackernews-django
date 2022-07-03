@@ -3,11 +3,10 @@
 {% block content %}
 <article>
     <p class="about">{{ object.title }}</p>
-    <br>
-    <p>Description:</p>
+    <p class="subscript">{{ object.author }} | {{ object.time | timesince }} ago</p>
     <pre class="comments">{{ object.description }}</pre>
-    <p>Timestamp: {{ object.time }}</p>
-    <p>Author: {{ object.author }}</p>
+    <br>
+    <a class="title" href="{{ object.url }}"> [apply] </a>
 </article>
 
 {% endblock %}

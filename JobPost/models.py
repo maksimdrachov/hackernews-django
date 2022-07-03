@@ -7,3 +7,4 @@ class JobPost(models.Model):
     description = models.TextField(blank=False)
     author = models.CharField(max_length=20, blank=False)
     time = models.DateTimeField(auto_now_add=True, blank=False)
+    url = models.URLField(max_length=300, blank=False)

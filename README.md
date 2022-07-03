@@ -25,6 +25,7 @@
 - news should display 10 items and have a page number changer at the bottom
 - news: top, latest(->default, since at the beginning there wont be so many articles), hot
 - check if everything works when not logged in (for example events page doesn't)
+- jobs: add an external link to model
 
 events
 
