@@ -3,7 +3,7 @@ from django.db import models
 from django.urls import reverse
 
 from calendarapp.models import EventAbstract
-from accounts.models import User
+#from accounts.models import User
 
 
 class EventManager(models.Manager):
@@ -26,7 +26,8 @@ class EventManager(models.Manager):
 class Event(EventAbstract):
     """ Event model """
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="events")
+    #user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="events")
+    user = models.CharField(max_length=20, blank=False)
     title = models.CharField(max_length=200, unique=True)
     description = models.TextField()
     start_time = models.DateTimeField()
