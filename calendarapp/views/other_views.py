@@ -69,7 +69,7 @@ def create_event(request):
             start_time=start_time,
             end_time=end_time,
         )
-        return HttpResponseRedirect(reverse("calendarapp:calendar"))
+        return HttpResponseRedirect(reverse("calendarapp:events"))
     return render(request, "event.html", {"form": form})
 
 
