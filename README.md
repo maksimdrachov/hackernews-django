@@ -11,12 +11,6 @@
   - [ ] study [Django-MPTT](https://django-mptt.readthedocs.io/en/latest/)
   - [ ] data model update 
   - [ ] template update
-- [ ] add events
-  - [ ] study [django-scheduler](https://github.com/llazzaro/django-scheduler)
-  - [ ] https://www.youtube.com/watch?v=nTIMYHJRW1c
-  - [ ] https://github.com/sajib1066/event-calendar
-  - [ ] add events model
-  - [ ] add events calendar template 
 - [ ] improve forms templating
 - [ ] inside personal profile:
   - [ ] list: my news posts
@@ -30,9 +24,8 @@
 
 events
 
-- [ ] add events model
-- [ ] add events calendar
-- [ ] [django-scheduler](https://github.com/llazzaro/django-scheduler)
+- [x] add events model
+- [x] add events calendar
 
 accounts
 
@@ -61,6 +54,8 @@ styling
 - [ ] design mascotte
 - [ ] design sticker
 - [ ] re-design favicon (estonian flag)
+- [ ] improve styling calendar header
+- [ ] set title limit for events
 
 ## Common Commands
 

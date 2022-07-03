@@ -6,7 +6,7 @@
 
 <article class="jobs">
     <a href="/jobdetail/{{ each.id }}" class="title">{{ each.title }}</a>
-    <p class="subscript">by {{ each.author }} 4 hours ago</p>
+    <p class="subscript">by {{ each.author }} {{ each.time|timesince }} ago</p>
 </article>
 
 {% endfor %}
