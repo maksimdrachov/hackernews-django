@@ -2,19 +2,29 @@
 
 ## TODO
 
-- [ ] jobs markdown field support
-  - [ ] update model to support markdownfield
-  - [ ] update form
-  - [ ] update view
-  - [link](https://www.youtube.com/watch?v=t61nTi0lIlk)
-- [ ] improve forms (currently they look ugly)
 - [ ] implement upvote system
+  - [ ] upvote news articles
+  - [ ] upvote comments
+  - [ ] add points [algorithm](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d)
+  - [ ] if upvoted, `^` should be green
+- [ ] tabbed reply comments
+  - [ ] study [Django-MPTT](https://django-mptt.readthedocs.io/en/latest/)
+  - [ ] data model update 
+  - [ ] template update
+- [ ] add events
+  - [ ] study [django-scheduler](https://github.com/llazzaro/django-scheduler)
+  - [ ] https://www.youtube.com/watch?v=nTIMYHJRW1c
+  - [ ] https://github.com/sajib1066/event-calendar
+  - [ ] add events model
+  - [ ] add events calendar template 
+- [ ] improve forms templating
 - [ ] inside personal profile:
   - [ ] list: my news posts
   - [ ] list: my events
   - [ ] list: my jobs
-  - [ ] list: upvoted
-- reply should only work when logged in
+  - [ ] list: upvoted news
+  - [ ] list: upvoted comments
+- reply should only work when logged in (LoginRequiredMixin)
 - upvote button should do a post to increase count
 - add link to other profiles to display posts,...
 
@@ -48,18 +58,9 @@ comments
 
 styling
 
-- [x] re-add submit button (inside the profile page)
-- [x] clicked links should be greyed out
-- [x] add favicon
-- [x] add time since posted ([timesince](https://docs.djangoproject.com/en/4.0/ref/templates/builtins/#timesince))
-- [x] add header image
-- [x] add basic css styling
-- [x] allignment improvements
-  - [x] width doesn't work when wide
-- [x] filter links to only display domain
-- [ ] if upvoted, `^` should be green
-
-
+- [ ] design mascotte
+- [ ] design sticker
+- [ ] re-design favicon (estonian flag)
 
 ## Common Commands
 
